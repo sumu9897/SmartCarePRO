@@ -2,7 +2,7 @@ package org.example;
 
 import org.testng.annotations.Test;
 
-public class LoginPage extends DriverSetUp{
+public class LoginPage extends DriverSetUp {
     @Test
     public void LoginPageOpen() throws InterruptedException {
         browser.get("https://carepro-training.ihmafrica.com");
@@ -10,5 +10,4 @@ public class LoginPage extends DriverSetUp{
         System.out.println(browser.getTitle());
         System.out.println(browser.getCurrentUrl());
     }
-
 }
